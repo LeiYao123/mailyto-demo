@@ -1,8 +1,7 @@
 "use client";
 
-import { ClipboardCopy, Loader2 } from "lucide-react";
+import { ClipboardCopy } from "lucide-react";
 import { renderAsync } from "../package/render";
-import { useState } from "react";
 
 export function SubmitButton(props: any) {
   const handleCopy = () => {
